@@ -1,0 +1,71 @@
+Name,month,new_case_count,temperature
+Boston,3,1346,42.8
+Boston,4,11517,45.9
+Boston,5,5046,58
+Boston,6,1883,69.5
+Boston,7,1403,75.5
+Boston,8,2250,74.4
+Boston,9,-440,65.4
+Dallas,3,620,64.4
+Dallas,4,2900,65.9
+Dallas,5,6703,75.2
+Dallas,6,11104,83.7
+Dallas,7,29961,86.4
+Dallas,8,23277,87.6
+Dallas,9,3715,76.9
+Denver,3,516,42.3
+Denver,4,2462,46.9
+Denver,5,2774,59.2
+Denver,6,1316,70.5
+Denver,7,2532,74.5
+Denver,8,1642,75.7
+Denver,9,420,64.8
+Detroit,3,3727,40.5
+Detroit,4,13014,44.9
+Detroit,5,3689,57.3
+Detroit,6,2353,71.4
+Detroit,7,4301,77.4
+Detroit,8,4164,73.2
+Detroit,9,1882,63.7
+Honolulu,3,155,73.6
+Honolulu,4,242,75.7
+Honolulu,5,22,77.2
+Honolulu,6,231,79.1
+Honolulu,7,1103,79.8
+Honolulu,8,5936,80.6
+Honolulu,9,1812,80.4
+Los Angeles,3,2958,60.6
+Los Angeles,4,20171,65.5
+Los Angeles,5,31814,69.4
+Los Angeles,6,48533,70.1
+Los Angeles,7,84952,70.6
+Los Angeles,8,53287,74.7
+Los Angeles,9,10298,74.1
+Miami,3,2115,75.7
+Miami,4,9940,80.1
+Miami,5,5936,78.9
+Miami,6,18820,83.4
+Miami,7,81642,84.6
+Miami,8,38448,85.2
+Miami,9,6465,83.6
+New York City,3,43249,47.4
+New York City,4,129266,50.3
+New York City,5,35301,59.9
+New York City,6,11759,73
+New York City,7,9990,80
+New York City,8,9104,77.9
+New York City,9,2998,70.7
+San Francisco,3,369,53.1
+San Francisco,4,1102,55.5
+San Francisco,5,1059,59.1
+San Francisco,6,1045,60
+San Francisco,7,2972,58.9
+San Francisco,8,2919,61.3
+San Francisco,9,694,62.9
+Seattle,3,1943,44.5
+Seattle,4,3978,52.1
+Seattle,5,1851,59
+Seattle,6,2037,61.7
+Seattle,7,5018,66.8
+Seattle,8,4468,67.8
+Seattle,9,1034,66.3
