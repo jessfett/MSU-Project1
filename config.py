@@ -6,9 +6,9 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "#API KEYS\n",
-    "\n",
-    "api_key=\"e9f34fe30c3508b1804ca865ed96b3b4\"\n"
+    "# api_key\n",
+    "api_key=\"e9f34fe30c3508b1804ca865ed96b3b4\"\n",
+    "\n"
    ]
   },
   {
