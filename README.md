@@ -52,7 +52,7 @@ For our first and second analysis we wanted to see if average monthly temperatur
 The two below charts are shown below:
 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/[jessfett]/[MSU-Project1]/blob/[Master]/tempcasesdetroit.png?raw=true)
 
 
 
