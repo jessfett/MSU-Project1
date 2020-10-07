@@ -28,18 +28,22 @@ https://developers.google.com/maps/documentation/geocoding/start
 We use the merged datasets for both the COVID and Weather to perform 9 different analysis to find conclusions.
 We divided our analysis in following parts:
 
-1) Average Temperature (F) vs. New Case Count (Monthly) - All Cities
-2) Average Temperature (F) vs. New Case Count (Monthly) - Detroit
-3) Relative Humidity (%) vs. New Case Count (Monthly) - All Cities
-4) Relative Humidity (%) vs. New Case Count (Monthly) - Detroit
-5) Avg Time spent away from Home(vs the baseline) vs New Covid Case Count
-6) Detroit Time spent away from home(vs the baseline) vs New Covid Cases
-7) Avg Time spent away from Home(vs the baseline) vs Average Monthly Temperature
-8) Detroit Avg Time spent away from Home(vs the baseline) vs Average Monthly Temperature
-9) Latitude vs. Total New Cases (March - September)
+1) Average Temperature in Detroit from March to Septemer 2020
+2) New Cases of COVID (per million people) in Detroit from March to September 2020
+3) Average Temperature (F) vs. New Case Count (Monthly) - All Cities
+4) Average Temperature (F) vs. New Case Count (Monthly) - Detroit
+5) Relative Humidity (%) vs. New Case Count (Monthly) - All Cities
+6) Relative Humidity (%) vs. New Case Count (Monthly) - Detroit
+7) Avg Time spent away from Home(vs the baseline) vs New Covid Case Count
+8) Detroit Time spent away from home(vs the baseline) vs New Covid Cases
+9) Avg Time spent away from Home(vs the baseline) vs Average Monthly Temperature
+10) Detroit Avg Time spent away from Home(vs the baseline) vs Average Monthly Temperature
+11) Latitude vs. Total New Cases (March - September)
 
-1 & 2) Average Temperature (F) vs. New Case Count (Monthly) - All Cities & Just Detroit
-**Step 1 : Identifying the data **
+
+
+
+3 & 4) Average Temperature (F) vs. New Case Count (Monthly) - All Cities & Just Detroit
 
 For our first and second analysis we wanted to see if average monthly temperature had any effect on monthly new cases of covid (per million people) in the 10 cities for our study and then in just Detroit. Since we merged our weather data and covid data together all of the data we needed to show this scatter plot was all in one place. A linregress function was done on the data (x=temperature, y=new cases per million people) so we could get both slope and intercept for our linear equation and the rvalue to determine coorelation.
 
@@ -49,6 +53,8 @@ The two below charts are shown below:
 
 
 
+
+From these charts you can see that their is almost no coorelation between avg monthly temperature and new monthly cases per million people in the cities as a whole and just Detroit. We can see a slight increase in cases as temperature goes up in the first chart but it is not enough to be able to predict the number of cases at a certain temperature. Detroit shows us a different story with cases decreasing slightly as avgerage monthly temperature raised. This could be due to warmer temperatures coming later in the year after the height of COVID died down but without more data we cannot confirm that.
 
 
 
