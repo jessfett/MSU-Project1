@@ -23,9 +23,9 @@ https://developers.google.com/maps/documentation/geocoding/start
 2) Weather Data - 
 
 
-Analysis-
+## Analysis:
 
-We use the CSV datasheets for both the COVID and Weather to perform 9 different analysis to find conclusions.
+We use the merged datasets for both the COVID and Weather to perform 9 different analysis to find conclusions.
 We divided our analysis in following parts:
 
 1) Average Temperature (F) vs. New Case Count (Monthly) - All Cities
