@@ -91,20 +91,20 @@ The two below charts are shown below:
 
 Based on our research, we can conclude that there is no strong correlation between the ten cities' weather (temperature/relative humidity) and increases with new COVID cases. In regards to time spent outside, we did find a positive correlation between increased temperatures and time spent away from the home. However, as the populations spent more time away from home, the COVID new cases did not increase.
 
-1) Individual City/State Reaction to COVID 
+### 1) Individual City/State Reaction to COVID 
 
 A. Did the cities in our study put Stay at Home Orders in place? If so, when did the initial order start and how long did it last? 
 
 B. Outside of Stay at Home Orders, were restrictions on public places put in place? How strict were the guidelines for people being allowed to leave their homes?
 
-2) Sample Size and Profile 
+### 2) Sample Size and Profile 
   
 A. Did 10 cities accurately reflect the country? B. Could we have found better data sources to pull both the historical weather, COVID tracker, and GPS data from?
 
-3) Weather Standards 
+### 3) Weather Standards 
  
 A. What is considered normal weather for the selected cities? Are we able to see outliers in weather patterns that may had led to an increase/decrease in cases or time spent outside the home?
 
-4) Time-Series Data 
+### 4) Time-Series Data 
   
 A. What other factors occurring during the same time could have led to our conclusions?
