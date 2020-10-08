@@ -163,6 +163,12 @@ Finally, we utilized a T-Test to test the alternate hypothesis that cities with 
 <b>Overall, after analyzing multiple factors of weather and their impact on COVID cases around the US, there is no strong correlation between the two. </b>
 
 
+
+
+
+See limitations taken into consideration when conducting this study below:
+
+
 ### 1) Individual City/State Reaction to COVID 
 
 
