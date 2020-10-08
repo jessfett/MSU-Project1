@@ -51,9 +51,8 @@ For our first and second analysis we wanted to see if average monthly temperatur
 
 The two below charts are shown below:
 
-
-![Detroit Temperature vs. Cases Image](https://github.com/[jessfett]/[MSU-Project1]/blob/[Master]/OutputImages/tempcasesdetroit.png?raw=true)
-
+[![Temperature vs. Cases All Cities](https://www.linkpicture.com/q/tempcasesall.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
+[![Temperature vs. Cases Detroit](https://www.linkpicture.com/q/tempcasesdetroit.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 
 
 
