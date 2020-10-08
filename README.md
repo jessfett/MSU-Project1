@@ -101,6 +101,45 @@ For these analyses we wanted to see if average monthly temperature had any effec
  
  [![Latitude Cases](https://www.linkpicture.com/q/latitude.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 
+
+
+
+
+## Hypothesis Testing
+
+Independent t-tests will compare the means of 2 independent populations. 
+
+Assumptions 
+-Data is normally distributed
+-Data is independent
+-Data is homogenous (The standard deviations are roughly equal)
+
+
+<b>Null Hypothesis</b> Cities with an average temperature greater than 70 are not less likely to have a higher amount of new COVID cases, compared to cities with average temperatures less than 70.
+
+
+<b>Alternative Hypothesis</b> Cities with an average temperature greater than 70 are likely to have higher new COVID cases, compared to cities with average temperatures less than 70.
+
+We picked two cities that we noted have varying differences in temperatures, with Detroit's average at 61.2 and Miami's average at 81.6, in order to test if the warmer temperature increased COVID cases over this time study.
+
+Below you can see boxplots showing the spread of temperatures for both Detroit and Miami.  We calculated the statistical summary of each city to determine the mean averages listed above. These are independent populations being tested using a T-Test.
+
+
+[![Detroit Temperatures](https://www.linkpicture.com/q/tempboxplotdetroit.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
+[![Miami Temperature](https://www.linkpicture.com/q/tempboxplotmiami.png)](https://www.linkpicture.com/view.php?img=LPic5f7e5c35ca353310964748)
+
+
+<b>Significance Level</b> The significance level is 0.05
+
+
+<b>P-Value</b> The P-Value is calculated to be 0.19
+
+
+<b>Conclusion</b> After conducting a statistical test comparing the new COVID cases in both Detroit and Miami over the 6 month span, we determined the p-value to be 0.19. This is above the desired significance level of 0.05 and thus fails to reject the null hypothesis. Based on the test, there is no support that the (altherntive) hypothesis stating that temperatures above 70 causes there to be more new COVID cases.
+Population1 below is Detroit's new cases per million people and Population2 below is Miamia's new cases per million people.
+
+
+
 ## Final Analysis & Limitations:
 
 Based on our research, we can conclude that there is no strong correlation between the ten cities' weather (temperature/relative humidity) and increases with new COVID cases. In regards to time spent outside, we did find a positive correlation between increased temperatures and time spent away from the home. However, as the populations spent more time away from home, the COVID new cases did not increase.
