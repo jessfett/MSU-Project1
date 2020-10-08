@@ -48,19 +48,16 @@ We divided our analysis in following parts:
 [![Cases in Detroit](https://www.linkpicture.com/q/tempcaseslinedetroit.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 [![Temperature in Detroit](https://www.linkpicture.com/q/tempdetroit.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 
-The above charts tell story of the temperature in Detroit and the new cases of COVID over the time of the study, March to September 2020. You can see from the data that the temperature follows the normal pattern of the seasonal change in Michigan with it increasing in temperature for the mid year months and starting to cool down going in to fall. For the COVID cases, we see a high spike in cases in the early time of the study, April and May, when the pandemic was in full force.  The cases have decreased in Detroit since. 
+The above charts tell story of the temperature in Detroit and the new cases of COVID over the time of the study, March to September 2020. You can see from the data that the temperature follows the normal pattern of the seasonal change in Michigan with it increasing in temperature for the mid year months and starting to cool down going in to fall. For the COVID cases, we see a high spike in cases in the early time of the study, April and May, when the pandemic was in full force.  The cases decreased in Detroit until June where they increased and followed the same pattern as the temperature increase/decrease in Detroit.  This sparked further testing to see if there was truly a relationship between the temperature and the number of cases for the 10 cities and Detroit specifically.
 
 <b>3 & 4) Average Temperature (F) vs. New Case Count (Monthly) - All Cities & Just Detroit</b>
 
 For our first and second analysis we wanted to see if average monthly temperature had any effect on monthly new cases of covid (per million people) in the 10 cities for our study and then in just Detroit. Since we merged our weather data and covid data together all of the data we needed to show this scatter plot was all in one place. A linregress function was done on the data (x=temperature, y=new cases per million people) so we could get both slope and intercept for our linear equation and the rvalue to determine coorelation.
 
-The two below charts are shown below:
+<i>The two below charts are shown below:</i>
 
 [![Temperature vs. Cases All Cities](https://www.linkpicture.com/q/tempcasesall.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 [![Temperature vs. Cases Detroit](https://www.linkpicture.com/q/tempcasesdetroit.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
-
-
-
 
 
 
@@ -71,31 +68,38 @@ From these charts you can see that their is almost no coorelation between avg mo
 
 For these analyses we wanted to see if average monthly relative humiditiy had any effect on monthly new cases of covid (per million people) in the 10 cities for our study and then in just Detroit. Since we merged our weather data and covid data together all of the data we needed to show this scatter plot was all in one place. A linregress function was done on the data (x=temperature, y=new cases per million people) so we could get both slope and intercept for our linear equation and the rvalue to determine coorelation.
 
-The two below charts are shown below:
+<i>The two below charts are shown below:</i>
+
+[![Humidity All Cities](https://www.linkpicture.com/q/newcaseshumidityall.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
+[![Humidity in Detroit](https://www.linkpicture.com/q/humiditynewcasesdetroit.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 
 
-
-
-
-
-From these charts you can see that their is almost no coorelation between avg monthly relative humiditiy and new monthly cases per million people in the cities as a whole and just Detroit. We can see a slight increase in cases as humidity goes up in the first chart but it is not enough to be able to predict the number of cases at a certain humidity percentage. Detroit shows us a different story with cases decreasing slightly as avgerage monthly humidity raised.
+From these charts you can see that their is almost no coorelation between avg monthly relative humiditiy and new monthly cases per million people in the cities as a whole and just Detroit. We can see a slight increase in cases as humidity goes up in the first chart but it is not enough to be able to predict the number of cases at a certain humidity percentage. Detroit shows us a different story with cases decreasing slightly as average monthly humidity raised.
 
 <b>7 & 8) Avg Time spent away from Home(vs the baseline) vs New Covid Case Count - All Cities & Just Detroit</b>
 
-For these analyses we wanted to see if average time spent away from home had any effect on new cases of covid (per million people) in the 10 cities for our study and then in just Detroit. All of this data was provided by "Track the Recovery" so after we normalized the case coust to per million and cleaned up the data in previous steps we had everything we needed to show this scatter plot. A linregress function was done on the data (x=temperature, y=new cases per million people) so we could get both slope and intercept for our linear equation and the rvalue to determine coorelation.
+For these analyses we wanted to see if average time spent away from home had any effect on new cases of covid (per million people) in the 10 cities for our study and then in just Detroit. All of this data was provided by "Track the Recovery" so after we normalized the case count to per million and cleaned up the data in previous steps we had everything we needed to show this scatter plot. A linregress function was done on the data (x=temperature, y=new cases per million people) so we could get both slope and intercept for our linear equation and the r-value to determine coorelation.
 
-The two below charts are shown below:
+<i>The two below charts are shown below:</i>
+
+[![Time Away New Cases All Cities](https://www.linkpicture.com/q/newcasestimeawayall.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
+[![Time Away New Cases Detroit](https://www.linkpicture.com/q/awaynewcasesscatter.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
+
 
 <b>9 & 10) Avg Time spent away from Home(vs the baseline) vs Average Monthly Temperature - All Cities & Just Detroit</b>
 
 For these analyses we wanted to see if average monthly temperature had any effect on average time spent away from home in the 10 cities for our study and then in just Detroit. Since we merged our weather data and covid data together all of the data we needed to show this scatter plot was all in one place. A linregress function was done on the data (x=temperature, y=new cases per million people) so we could get both slope and intercept for our linear equation and the rvalue to determine coorelation.
 
 
-The two below charts are shown below:
+<i>The two below charts are shown below:</i>
 
+
+[![Time Away Temp All Cities](https://www.linkpicture.com/q/timeawaytempscatter.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
+[![Time Away Temp Detroit](https://www.linkpicture.com/q/monthlytemptimedetroit.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 
 <b>11) Latitude vs. Total New Cases (March - September)</b>
  
+ [![Latitude Cases](https://www.linkpicture.com/q/latitude.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 
 ## Final Analysis & Limitations:
 
