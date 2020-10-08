@@ -4,7 +4,9 @@
 This analysis takes a look at climate factors, including temperature and humidity, for ten cities around the United States. Additionally, we look at the impact the climate factors have on time outside of the home in comparison to the amount of COVID cases. Does a warmer climate cause a higher new case rate of COVID in these cities? Does higher humidity mean higher percentage of cases? We also analyze the latitude of each city to see if that relates to climate and COVID-cases as well by utilizing Google API.
 
 ## Conclusion & Presentation
-Please reference the google slide presentation for an overall conclusion and synopsis of our study.</  br>
+Please reference the google slide presentation for an overall conclusion and synopsis of our study.
+
+
 [Google Slide Presentation](https://docs.google.com/presentation/d/1dTi3ePExsWxlIbdCpVKDt8ftej8rfsQZBBAf_oh08Ek/edit?usp=sharing)
 
 
