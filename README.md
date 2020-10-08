@@ -3,6 +3,10 @@
 
 This analysis takes a look at climate factors, including temperature and humidity, for ten cities around the United States. Additionally, we look at the impact the climate factors have on time outside of the home in comparison to the amount of COVID cases. Does a warmer climate cause a higher new case rate of COVID in these cities? Does higher humidity mean higher percentage of cases? We also analyze the latitude of each city to see if that relates to climate and COVID-cases as well by utilizing Google API.
 
+## Conclusion & Presentation
+Please reference the google slide presentation for an overall conclusion and synopsis of our study.
+[Google Slide Presentation](https://docs.google.com/presentation/d/1dTi3ePExsWxlIbdCpVKDt8ftej8rfsQZBBAf_oh08Ek/edit?usp=sharing)
+
 
 ## Data Gathering:
 There are three sources of Data in our project :-
@@ -86,6 +90,7 @@ For these analyses we wanted to see if average time spent away from home had any
 [![Time Away New Cases Detroit](https://www.linkpicture.com/q/awaynewcasesscatter.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 
 
+
 <b>9 & 10) Avg Time spent away from Home(vs the baseline) vs Average Monthly Temperature - All Cities & Just Detroit</b>
 
 For these analyses we wanted to see if average monthly temperature had any effect on average time spent away from home in the 10 cities for our study and then in just Detroit. Since we merged our weather data and covid data together all of the data we needed to show this scatter plot was all in one place. A linregress function was done on the data (x=temperature, y=new cases per million people) so we could get both slope and intercept for our linear equation and the rvalue to determine coorelation.
@@ -96,6 +101,11 @@ For these analyses we wanted to see if average monthly temperature had any effec
 
 [![Time Away Temp All Cities](https://www.linkpicture.com/q/timeawaytempscatter.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
 [![Time Away Temp Detroit](https://www.linkpicture.com/q/monthlytemptimedetroit.png)](https://www.linkpicture.com/view.php?img=LPic5f7e53563281e864952677)
+
+
+From the above graphs and the regression line, we can see that specifically in Detroit there is a strong positive correlation between the average Temperature and the amount of time people are spending outside of their homes. The corrleation coefficient is 0.81 meaning there is a strong positive correlation.
+The Linear Regress model for this is y=148.02x + 80.48.  We are confident in stating that as the temperature increases, the time spent outside of the home increases. We also see this same trend throughout the scatterplot taking in to account all 10 cities in the study. 
+
 
 <b>11) Latitude vs. Total New Cases (March - September)</b>
  
@@ -142,8 +152,13 @@ Population1 below is Detroit's new cases per million people and Population2 belo
 
 ## Final Analysis & Limitations:
 
-Based on our research, we can conclude that there is no strong correlation between the ten cities' weather (temperature/relative humidity) and increases with new COVID cases. In regards to time spent outside, we did find a positive correlation between increased temperatures and time spent away from the home. However, as the populations spent more time away from home, the COVID new cases did not increase.
+<b>Based on our research, we can conclude that there is no strong correlation between the ten cities' weather (temperature/relative humidity) and increases with new COVID cases. In regards to time spent outside, we did find a positive correlation between increased temperatures and time spent away from the home. However, as the populations spent more time away from home, the COVID new cases did not increase.</b>
 
+The relationships between temperature and cases, humidity and cases, and latitude and cases all showed weak correlations, if any. We did find that time spent outside increased as temperatures increased.  With 81% of the data being represented by the regression line, we could with slight confidence use our regression line to predict the average amount of time spent outside based off a given temperature.  We looked to see if there was a transitive property bridging temperature to time spent outside to new cases, however; the time spent outside did not have a strong correlation with the number of cases amongst all cities in the study. 
+
+Finally, we utilized a T-Test to test the alternate hypothesis that cities with average temperatures over 70 saw higher COVID cases.To do so we utilized Miami and Detroit as independent populations. These cities had average temperatures of 61.2 and 81.6, however; the t-test came back with a p-value of .19, showing there is no support to the alternative hypothesis. 
+
+<b>Overall, after analyzing multiple factors of weather and their impact on COVID cases around the US, there is no strong correlation between the two. </b>
 
 
 ### 1) Individual City/State Reaction to COVID 
